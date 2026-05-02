@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     font-family: Arial;
@@ -151,3 +152,206 @@ nav a:hover{
     object-fit: cover;
     border-radius: 10px;
 }
+=======
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#0f172a,#020617);
+    color: white;
+    overflow-x: hidden;
+}
+
+.bg span {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(59, 130, 246, 0.3);
+    animation: move 20s infinite;
+}
+
+.bg span:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 10%;
+}
+
+.bg span:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    top: 60%;
+    left: 70%;
+}
+
+.bg span:nth-child(3) {
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    left: 30%;
+}
+
+.bg span:nth-child(4) {
+    width: 80px;
+    height: 80px;
+    top: 80%;
+    left: 20%;
+}
+
+@keyframes move {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #020617;
+}
+
+li{
+    list-style-type:none ;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+li:hover{
+    padding: 20px;
+    cursor: pointer;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Projects */
+.projects {
+    padding: 70px;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    background: linear-gradient(45deg, #3b82f6, #06b6d4);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #2563eb, #0891b2);
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
+}
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 14px;
+    background: #3b82f6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card2 {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.card2:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
+}
+
+
+.card2 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card3 {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.card3:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
+}
+
+
+.card3 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card4 {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 15px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.card4:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
+}
+
+.card4 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+>>>>>>> 96d3ca7fe061aae438a9a2bf9c169780778f0883
