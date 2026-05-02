@@ -20,14 +20,17 @@ nav a{
     font-weight: bold;
     text-decoration: none;
 }
+nav a:hover{
+    color: rgb(32, 32, 113);
+    background-color: white;
+    border-radius: 10px;
+}
 
-/* Hero */
 .hero {
     text-align: center;
     padding: 40px 20px;
 }
 
-/* Projects */
 .projects {
     padding: 70px;
 }
@@ -54,7 +57,6 @@ nav a{
 
 .card {
     background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(15px);
     border: 1px solid rgba(255,255,255,0.1);
     padding: 15px;
     width: 250px;
@@ -62,7 +64,6 @@ nav a{
     transition: 0.3s;
 }
 
-/* Hover */
 .card:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
@@ -95,7 +96,6 @@ nav a{
     transition: 0.3s;
 }
 
-/* Hover */
 .card2:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
@@ -118,7 +118,6 @@ nav a{
     transition: 0.3s;
 }
 
-/* Hover */
 .card3:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
@@ -141,7 +140,6 @@ nav a{
     transition: 0.3s;
 }
 
-/* Hover */
 .card4:hover {
     transform: translateY(-10px) scale(1.03);
     box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
