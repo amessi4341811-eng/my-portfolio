@@ -6,15 +6,11 @@ body {
     overflow-x: hidden;
 }
 
-/* ================= BACKGROUND ================= */
-
 .bg span {
     position: absolute;
     border-radius: 50%;
     background-color: rgba(59, 130, 246, 0.3);
 }
-
-/* ================= CIRCLES ================= */
 
 .bg span:nth-child(1) {
     width: 15vw;
@@ -63,14 +59,10 @@ body {
     left: 50%;
     animation: move2 8s infinite alternate ease-in-out;
 }
-
-/* ================= ANIMATION ================= */
-
 @keyframes move1 {
     from {
         transform: translateY(0);
     }
-
     to {
         transform: translateY(40px);
     }
@@ -80,34 +72,26 @@ body {
     from {
         transform: translateX(0);
     }
-
     to {
         transform: translateX(-50px);
     }
 }
-
 @keyframes move3 {
     from {
         transform: translate(0,0);
     }
-
     to {
         transform: translate(30px,-30px);
     }
 }
-
 @keyframes move4 {
     from {
         transform: translate(0,0);
     }
-
     to {
         transform: translate(-40px,40px);
     }
 }
-
-/* ================= HEADER ================= */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -122,9 +106,6 @@ h1 {
     color: white;
     text-align: center;
 }
-
-/* ================= NAVBAR ================= */
-
 nav {
     display: flex;
     justify-content: center;
@@ -141,140 +122,76 @@ nav a {
     text-decoration: none;
     transition: 0.3s;
 }
-
 nav a:hover {
     color: rgb(32, 32, 113);
     background-color: white;
     border-radius: 10px;
 }
-
-/* ================= BUTTON ================= */
-
 button {
-
     border: none;
-
     border-radius: 20px;
-
     width: 90%;
     max-width: 400px;
-
     margin: 80px auto;
-
     display: block;
-
     font-size: 24px;
-
     height: 60px;
-
     background-color: rgb(50, 219, 103);
-
     color: white;
-
     cursor: pointer;
-
     transition: 0.3s;
-
 }
-
 button:hover {
     transform: scale(1.05);
     background: linear-gradient(45deg, #2563eb, #0891b2);
 }
-
-/* ================= LINKS ================= */
-
 a {
     text-decoration: none !important;
 }
-
-/* ================= IMAGES ================= */
-
 a img {
-
     width: 90%;
     max-width: 200px;
-
     border-radius: 20px;
-
     margin: 20px;
-
     transition: 0.3s;
-
 }
-
 a img:hover {
     transform: scale(1.1);
     background-color: #0891b2;
 }
-
-/* ================= MOBILE ================= */
-
 @media (max-width: 768px) {
-
     header {
-
         flex-direction: column;
-
         text-align: center;
-
     }
-
     h1 {
-
         font-size: 20px;
-
     }
-
     nav {
-
         flex-direction: column;
-
         width: 100%;
-
     }
-
     nav a {
-
         margin: 10px 0;
-
         font-size: 18px;
-
     }
-
     button {
-
         width: 90%;
-
         max-width: 300px;
-
         margin: 40px auto;
-
         font-size: 18px;
-
         height: 50px;
-
     }
-
     .bg span:nth-child(1) {
-
         width: 120px;
         height: 120px;
-
     }
-
     .bg span:nth-child(2) {
-
         width: 90px;
         height: 90px;
-
     }
-
     .bg span:nth-child(5) {
-
         width: 140px;
         height: 140px;
-
     }
-
 }
